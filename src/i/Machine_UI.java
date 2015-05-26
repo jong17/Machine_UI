@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package i;
+import javax.swing.*;
 
 /**
  *
@@ -16,7 +17,10 @@ public class Machine_UI {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println('Test git hub');
+        JFrame f = new JFrame();
+        f.setSize(600,600);
+        f.setVisible(true);
+        
     }
     
 }
